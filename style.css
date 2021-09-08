@@ -1,0 +1,56 @@
+:root{
+    --backgroundcolorbody : #FFEAC9;
+    --error :#FF616D;
+    --success :#66DE93;
+    --font : #5E454B;
+}
+img{
+    width: 40px;
+}
+
+.suc , .err{
+    color: black;
+    padding: 20px;
+    margin-bottom: 3%;
+    border-radius: 20px;
+}
+.suc{
+    background-color: var(--success);
+}
+.err{
+    background-color: var(--error);
+}
+input{
+    border-radius: 20px !important;
+}
+.sub{
+    background-color: var(--success) !important;
+    border: .5px solid var(--success) !important;
+    border-radius: 20px !important;
+    font-size: 16px !important;
+    font-weight:700 !important;
+    color:black!important;
+    transition: all .5s ease;
+}
+.sub:hover{
+    background-color: black !important;
+    border-radius: 20px !important;
+    border: none !important;
+    color:white !important;
+}
+
+.delete{ 
+    background-color:var(--error) !important;
+    border: .5px solid var(--error) !important;
+    border-radius: 20px !important;
+    font-size: 16px !important;
+    font-weight:700 !important;
+    color:black!important;
+    transition: all .5s ease;
+}
+.delete:hover{
+    background-color: black !important;
+    border-radius: 20px !important;
+    border: none !important;
+    color:white !important;
+}

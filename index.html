@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/book.png">
+    <title>Book List</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <h1><img src="images/book.png"> Add Book</h1>
+            <form id="bookslist">
+                <div>
+                    <label for="book-name">Book Name</label>
+                    <input class="u-full-width" type="text" placeholder="Book Name" id="book-name">
+                </div>
+                <div>
+                    <label for="book-author">Author</label>
+                    <input class="u-full-width" type="text" placeholder="Author" id="book-author">
+                </div>
+                <div>
+                    <label for="ISBN">ISBN</label>
+                    <input class="u-full-width" type="text" placeholder="ID" id="ISBN">
+                </div>
+                <input type="submit" value="ADD" class="sub u-full-width">
+            </form>
+            <table class="u-full-width">
+                <thead>
+                  <tr>
+                    <th>Book Name</th>
+                    <th>Author</th>
+                    <th>ISSN</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="books">
+                </tbody>
+              </table>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
